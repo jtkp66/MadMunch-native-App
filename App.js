@@ -17,7 +17,7 @@ export default class App extends React.Component {
       main: {
         screen: createBottomTabNavigator({
           map: { screen: MapScreen },
-          deck: { screen: DeckScreen },
+          MENU: { screen: DeckScreen },
           review: {
             screen: createStackNavigator({
               review: { screen: ReviewScreen },
