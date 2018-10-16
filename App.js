@@ -12,8 +12,8 @@ import SettingsScreen from './screens/SettingsScreen';
 export default class App extends React.Component {
   render() {
     const MainNavigator = createBottomTabNavigator({
-      welcome: { screen: WelcomeScreen },
-      auth: { screen: AuthScreen },
+      Welcome: { screen: WelcomeScreen },
+      MENU: { screen: AuthScreen },
       main: {
         screen: createBottomTabNavigator({
           map: { screen: MapScreen },
